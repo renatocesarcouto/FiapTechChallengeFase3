@@ -1,0 +1,19 @@
+{
+  "name": "tech-challenfe-fase2-blog-api",
+  "version": "1.0.0",
+  "description": "API para plataforma de blog do Tech Challenge Fase 2",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
